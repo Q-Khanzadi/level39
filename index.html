@@ -14,9 +14,6 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Project name</a>
         </div>
@@ -26,17 +23,37 @@
             <li><a href="about-us.html">About Us</a></li>
             <li><a href="login.html">Sign In</a></li>
             <li><a href="sign-up">Sign Up</li>
-            <li><a href="profiles"> Profiles </li>
+            <li><a href="profiles">Profiles</li>
+						<img src="Buddyup" alt="BuddyUp logo" align="right" href="index.html"/>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
 	<h1> BuddyUp </h1>
-	<h2> Eplore new areas! </h2>
+	<h2> Explore new areas! </h2>
 
 	<p> Meet new people </p>
-	
+
+	<h2>See where you can BuddyUp!</h2>
+	<div id="map"></div>
+	<script>
+		function initMap() {
+			var uluru = {lat: -25.363, lng: 131.044};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 1,
+				minZoom: 1,
+				center: new google.maps.LatLng(0, 0),
+			});
+			var marker = new google.maps.Marker({
+				position: uluru,
+				map: map
+			});
+		}
+	</script>
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIUIqk87U7GiuJLQXUaPzBcKTFKG9x2-o&callback=initMap">
+	</script>
 </body>
 
 </html>
