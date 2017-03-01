@@ -4,4 +4,19 @@
         width: 512px;
         background-color: grey;
         align: center;
+        margin-left: auto;
+        margin-right: auto;
       }
+
+#maptitle {
+  text-align: center;
+}
+
+.navbar {
+  display: inline;
+}
+
+.intro {
+  margin-top: 60px;
+  margin-left: 20px;
+}
