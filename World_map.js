@@ -11,32 +11,49 @@ function initMap() {
     minZoom: 1,
     center: new google.maps.LatLng(0, 0)
   });
-  var marker = new google.maps.Marker({
+
+  var marker_London = new google.maps.Marker({
     position: London,
-    map: map
+    map: map,
+    title: "London",
   });
-  var marker = new google.maps.Marker({
+  var contentString_London = "Sophie - 20";
+  var infowindow_London = new google.maps.InfoWindow({
+    content: contentString_London
+  });
+  marker_London.addListener('click', function() {
+    infowindow_London.open(map, marker_London);
+  });
+
+  var marker_Paris = new google.maps.Marker({
     position: Paris,
-    map: map
+    map: map,
+    title: "Paris",
   });
-  var marker = new google.maps.Marker({
+  var marker_NewYork = new google.maps.Marker({
     position: NewYork,
-    map: map
+    map: map,
+    title: "New York",
   });
-  var marker = new google.maps.Marker({
+  var marker_Sydney = new google.maps.Marker({
     position: Sydney,
-    map: map
+    map: map,
+    title: "Sydney",
   });
-  var marker = new google.maps.Marker({
+  var marker_Tokyo = new google.maps.Marker({
     position: Tokyo,
-    map: map
+    map: map,
+    title: "Tokyo",
   });
-  var marker = new google.maps.Marker({
+  var marker_LosAng = new google.maps.Marker({
     position: LosAng,
-    map: map
+    map: map,
+    title: "Los Angeles",
   });
-  var marker = new google.maps.Marker({
+  var marker_Rio = new google.maps.Marker({
     position: Rio,
-    map: map
+    map: map,
+    title: "Rio de Janeiro",
   });
-}
+
+};
