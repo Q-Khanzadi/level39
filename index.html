@@ -6,6 +6,8 @@
 	<title> BuddyUp </title>
 	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
 	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="World_map.js"></script>
 </head>
 
 <body>
@@ -15,7 +17,7 @@
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
         </button>
-        <a class="navbar-brand" href="#">BuddyUp!</a>
+        <a class="navbar-brand buddy-title" href="#">BuddyUp!</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
         <ul class="nav navbar-nav">
@@ -24,8 +26,7 @@
           <li><a href="login.html">Sign In</a></li>
           <li><a href="sign-up">Sign Up</a></li>
           <li><a href="profiles">Profiles</a></li>
-					<img src="Buddyup" alt="BuddyUp logo" align="right" href="index.html"/>
-        </ul>
+				</ul>
       </div><!--/.nav-collapse -->
     </div>
   </nav>
@@ -35,57 +36,19 @@
 		<p>Meet new people</p>
 	</div>
 
+	<div class="container">
 	<!--Google maps-->
-	<h3 id="maptitle">See where you can BuddyUp!</h3>
-	<div id="map"></div>
-	<script>
-		function initMap() {
-			var London = {lat: 51.5074, lng: -0.1278};
-			var Paris = {lat: 48.8566, lng: 2.3522};
-			var NewYork = {lat: 40.7128, lng: -74.0059};
-			var Sydney = {lat: -33.8688, lng: 151.2093};
-			var Tokyo = {lat: 35.6895, lng: 139.6917};
-			var Rio = {lat: -22.9068, lng: -43.1729};
-			var LosAng = {lat: 34.0522, lng: -118.2437};
-			var map = new google.maps.Map(document.getElementById('map'), {
-				zoom: 1,
-				minZoom: 1,
-				center: new google.maps.LatLng(0, 0)
-			});
+		<h3 id="maptitle">See where you can BuddyUp!</h3>
+		<div id="map"></div>
+	</div>
 
-			var marker = new google.maps.Marker({
-				position: London,
-				map: map
-			});
-			var marker = new google.maps.Marker({
-				position: Paris,
-				map: map
-			});
-			var marker = new google.maps.Marker({
-				position: NewYork,
-				map: map
-			});
-			var marker = new google.maps.Marker({
-				position: Sydney,
-				map: map
-			});
-			var marker = new google.maps.Marker({
-				position: Tokyo,
-				map: map
-			});
-			var marker = new google.maps.Marker({
-				position: LosAng,
-				map: map
-			});
-			var marker = new google.maps.Marker({
-				position: Rio,
-				map: map
-			});
-		}
+	<script>
+		$(document).ready($('#map').initMap());
 	</script>
 	<script async defer
 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIUIqk87U7GiuJLQXUaPzBcKTFKG9x2-o&callback=initMap">
 	</script>
+
 </body>
 
 </html>
