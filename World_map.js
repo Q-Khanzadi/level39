@@ -1,6 +1,6 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 1,
+    zoom: 2,
     minZoom: 1,
     center: new google.maps.LatLng(0, 0)
   });
@@ -10,9 +10,22 @@ function initMap() {
     map: map,
     title: "London",
   });
-  var contentString_London = "Sophie - 20";
+  var contentString_London = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<div display="block" float="left">'+
+      '<h3 id="firstHeading" horizontal-align="center" class="firstHeading" position="absolute">Sophie - 20</h3>'+
+      '<p display="table-cell" text-align="justify">Hi I\'m <b>Sophie</b>, aged <b>20</b> from <b>London</b>! I love trying <br/> the different Street Food Stalls around London,<br/> and going on nights out - my favourite types <br/>of music are Techno and Drum \& Bass.</p>'+
+      '</div>'+ //left float div
+      '<div display="block" float="right">'+
+      '<img src="Sophie.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '</div>'+ //right float div
+      '</div>'+
+      '</div>';
   var infowindow_London = new google.maps.InfoWindow({
-    content: contentString_London
+    content: contentString_London,
+    maxWidth: 500
   });
   marker_London.addListener('click', function() {
     infowindow_London.open(map, marker_London);

@@ -1,7 +1,7 @@
 #map {
         width: 100%;
-        height: 512px;
-        width: 512px;
+        height: 550px;
+        width: 100%;
         background-color: grey;
         align: center;
         margin-left: auto;
@@ -19,4 +19,8 @@
 .intro {
   margin-top: 60px;
   margin-left: 20px;
+}
+
+.buddy-title {
+  color: #42aaf4;
 }
