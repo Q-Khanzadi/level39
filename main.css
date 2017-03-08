@@ -48,3 +48,12 @@ body {
 =======
 }
 >>>>>>> origin/master
+
+
+.text-box {
+  padding: 30px;
+}
+
+.container-fluid {
+  margin: auto;
+}
