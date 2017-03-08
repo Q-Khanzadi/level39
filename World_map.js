@@ -37,9 +37,23 @@ function initMap() {
     map: map,
     title: "Paris",
   });
-  var contentString_Paris = "Jean - 30";
+  var contentString_Paris = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<div display="block" float="left">'+
+      '<h3 id="firstHeading" horizontal-align="center" class="firstHeading" position="absolute">Nathalie - 20</h3>'+
+      '<p display="table-cell" text-align="justify">Hi I\'m <b>Nathalie</b>, aged <b>20</b> from <b>Paris</b>! I love finding <br/>underground bars in Paris, <br/>and finding the best Steak-frites!</p>'+
+      '</div>'+ //left float div
+      '<div display="block" float="right">'+
+      '<img src="Nathalie.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '</div>'+ //right float div
+      '<button type="button" class="btn">Contact me</button>'+
+      '</div>'+ //body content div
+      '</div>';
   var infowindow_Paris = new google.maps.InfoWindow({
-    content: contentString_Paris
+    content: contentString_Paris,
+    maxWidth: 500
   });
   marker_Paris.addListener('click', function() {
     infowindow_Paris.open(map, marker_Paris);
@@ -50,9 +64,23 @@ function initMap() {
     map: map,
     title: "New York",
   });
-  var contentString_NewYork = "Cindy - 24";
+  var contentString_NewYork = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<div display="block" float="left">'+
+      '<h3 id="firstHeading" horizontal-align="center" class="firstHeading" position="absolute">Isobel - 24</h3>'+
+      '<p display="table-cell" text-align="justify">Hi I\'m <b>Isobel</b>, aged <b>24</b> from <b>New York</b>! I love going <br/>to Broadway shows, chilling out in Central Park<br/>with my sausage dog, Ernie, and finding the best bagel <br/>places to eat!</p>'+
+      '</div>'+ //left float div
+      '<div display="block" float="right">'+
+      '<img src="Isobel.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '</div>'+ //right float div
+      '<button type="button" class="btn">Contact me</button>'+
+      '</div>'+ //body content div
+      '</div>';
   var infowindow_NewYork = new google.maps.InfoWindow({
-    content: contentString_NewYork
+    content: contentString_NewYork,
+    maxWidth: 500
   });
   marker_NewYork.addListener('click', function() {
     infowindow_NewYork.open(map, marker_NewYork);
@@ -63,7 +91,20 @@ function initMap() {
     map: map,
     title: "Sydney",
   });
-  var contentString_Sydney = "Brian - 36";
+  var contentString_Sydney = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<div display="block" float="left">'+
+      '<h3 id="firstHeading" horizontal-align="center" class="firstHeading" position="absolute">Toby - 19</h3>'+
+      '<p display="table-cell" text-align="justify">Hi I\'m <b>Toby</b>, aged <b>19</b> from <b>Sydney</b>! I love being <br/>able to hang out in different bars in the town,<br/>and then chill out with a barbie on the beach, <br/>watching the beautiful sunset over the Opera House.</p>'+
+      '</div>'+ //left float div
+      '<div display="block" float="right">'+
+      '<img src="Toby.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '</div>'+ //right float div
+      '<button type="button" class="btn">Contact me</button>'+
+      '</div>'+ //body content div
+      '</div>';
   var infowindow_Sydney = new google.maps.InfoWindow({
     content: contentString_Sydney
   });
@@ -76,7 +117,20 @@ function initMap() {
     map: map,
     title: "Tokyo",
   });
-  var contentString_Tokyo = "Isobel - 24";
+  var contentString_Tokyo = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<div display="block" float="left">'+
+      '<h3 id="firstHeading" horizontal-align="center" class="firstHeading" position="absolute">James - 34</h3>'+
+      '<p display="table-cell" text-align="justify">Hi I\'m <b>James</b>, aged <b>34</b> from <b>Tokyo</b>! <br/>I\'ve only just arrived here a few weeks ago, <br/>so I\'d love to find people to help me explore<br/>and eat lots of ramen!</p>'+
+      '</div>'+ //left float div
+      '<div display="block" float="right">'+
+      '<img src="james.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '</div>'+ //right float div
+      '<button type="button" class="btn">Contact me</button>'+
+      '</div>'+ //body content div
+      '</div>';
   var infowindow_Tokyo = new google.maps.InfoWindow({
     content: contentString_Tokyo
   });
@@ -89,7 +143,20 @@ function initMap() {
     map: map,
     title: "Los Angeles",
   });
-  var contentString_LosAng = "Anna - 25";
+  var contentString_LosAng = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<div display="block" float="left">'+
+      '<h3 id="firstHeading" horizontal-align="center" class="firstHeading" position="absolute">Anna - 22</h3>'+
+      '<p display="table-cell" text-align="justify">Hi I\'m <b>Anna</b>, aged <b>22</b> from <b>Los Angeles</b>! I love cruising <br/>down Venice Beach on my skateboard, and then<br/>stopping off for a burrito with my friends.</p>'+
+      '</div>'+ //left float div
+      '<div display="block" float="right">'+
+      '<img src="Anna.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '</div>'+ //right float div
+      '<button type="button" class="btn">Contact me</button>'+
+      '</div>'+ //body content div
+      '</div>';
   var infowindow_LosAng = new google.maps.InfoWindow({
     content: contentString_LosAng
   });
@@ -102,7 +169,20 @@ function initMap() {
     map: map,
     title: "Rio de Janeiro",
   });
-  var contentString_Rio = "Paolo - 27";
+  var contentString_Rio = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<div display="block" float="left">'+
+      '<h3 id="firstHeading" horizontal-align="center" class="firstHeading" position="absolute">Paolo - 41</h3>'+
+      '<p display="table-cell" text-align="justify">Hi I\'m <b>Paolo</b>, aged <b>41</b> from <b>Rio de Janeiro</b>! I really <br/>enjoy getting lost in the market, where they do <br/>amazing churros with chocolate sauce.The football spirit <br/>is one of the best things about Brazilians</p>'+
+      '</div>'+ //left float div
+      '<div display="block" float="right">'+
+      '<img src="Paolo.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '</div>'+ //right float div
+      '<button type="button" class="btn">Contact me</button>'+
+      '</div>'+ //body content div
+      '</div>';
   var infowindow_Rio = new google.maps.InfoWindow({
     content: contentString_Rio
   });
