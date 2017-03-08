@@ -14,8 +14,7 @@
 
 .navbar {
   display: inline;
-  background-color: #FFA500; opacity: 0.9; filter: alpha(opacity=50);
-  font-color: white;
+  background-color: #FFA500; opacity: 0.9; filter: alpha(opacity=40);
 }
 
 .intro {
@@ -47,3 +46,5 @@ body {
   font-style: bold;
   text-shadow: #000 2px 2px 4px; 
 }
+
+#
