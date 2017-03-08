@@ -21,7 +21,8 @@ function initMap() {
       '<div display="block" float="right">'+
       '<img src="Sophie.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
       '</div>'+ //right float div
-      '</div>'+
+      '<button type="button" class="btn">Contact me</button>'+
+      '</div>'+ //body content div
       '</div>';
   var infowindow_London = new google.maps.InfoWindow({
     content: contentString_London,

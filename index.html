@@ -3,8 +3,19 @@
 <html>
 
 <head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
 	<title> BuddyUp </title>
 	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	<link rel="stylesheet" href="main.css">
 	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="World_map.js"></script>
@@ -12,42 +23,82 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
+  <div class="container-fluid">
+		<nav class="navbar navbar-default navbar-fixed-top">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
         </button>
-        <a class="navbar-brand buddy-title" href="#">BuddyUp!</a>
+        <a class="navbar-brand" href="#">
+        	<img src="Buddyup.png" alt="BuddyUp" href="index.html" align="left" height="100%" margin="0" />
+        </a>
       </div>
       <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
         <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about-us.html">About Us</a></li>
-          <li><a href="login.html">Sign In</a></li>
-          <li><a href="sign-up">Sign Up</a></li>
-          <li><a href="profiles">Profiles</a></li>
-				</ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#map">Map</a></li>
+          <li><a href="#register">Register Now!</a></li>
+        </ul>
       </div><!--/.nav-collapse -->
-    </div>
   </nav>
 
-	<div class="intro">
-		<h2>Explore new areas!</h2>
-		<p>Meet new people</p>
-	</div>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  	<ol class="carousel-indicators">
+    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    	<li data-target="#myCarousel" data-slide-to="1"></li>
+    	<li data-target="#myCarousel" data-slide-to="2"></li>
+  	</ol>
+
+  <!-- Wrapper for slides -->
+  	<div class="carousel-inner" role="listbox">
+    	<div class="item active">
+      	<img src="pool.jpg" alt="Guys jumping into a swimming pool">
+        <div class="carousel-caption">
+      		<h3>Meet New People!</h3>
+      	</div> <!--carousel-caption div-->
+    	</div> <!--item-active div-->
+
+    <div class="item">
+      <img src="roadtrip.jpg" alt="Girls on a roadtrip">
+         <div class="carousel-caption">
+      			<h3>Explore New Places!</h3>
+      		</div> <!-- carousel-caption div-->
+    </div> <!-- item div-->
+
+    <div class="item">
+      <img src="paris.jpg" alt="Ladies in Paris">
+      <div class="carousel-caption">
+      	<h3>Make memories to last a lifetime!</h3>
+      </div> <!-- carousel-caption div-->
+  	</div> <!-- item div-->
+
+  <!-- Left and right controls -->
+  	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    	<span class="sr-only">Previous</span>
+  	</a>
+  	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    	<span class="sr-only">Next</span>
+  	</a>
+		</div> <!-- carousel-inner div-->
+	</div> <!-- my-carousel div-->
+
 
 	<div class="container">
 	<!--Google maps-->
 		<h3 id="maptitle">See where you can BuddyUp!</h3>
 		<div id="map"></div>
-	</div>
+	</div> <!--container div-->
 
 	<script>$(document).ready($('#map').initMap());</script>
 	<script async defer
 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIUIqk87U7GiuJLQXUaPzBcKTFKG9x2-o&callback=initMap">
 	</script>
 
+	</div>  <!--container-fluid div-->
 </body>
 
 </html>
