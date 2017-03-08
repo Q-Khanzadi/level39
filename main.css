@@ -47,7 +47,7 @@ body {
 .carousel-caption {
   color: white;
   font-style: bold;
-  text-shadow: #000 2px 2px 4px; 
+  text-shadow: #000 0px 0px 30px; 
 }
 
 #about-us {
