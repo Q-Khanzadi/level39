@@ -1,0 +1,44 @@
+#map {
+        width: 100%;
+        height: 550px;
+        width: 100%;
+        background-color: grey;
+        align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+#maptitle {
+  text-align: center;
+}
+
+.navbar {
+  display: inline;
+}
+
+.intro {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.buddy-title {
+  color: #42aaf4;
+}
+
+body {
+  margin-bottom: 30px;
+}
+<<<<<<< HEAD
+
+  background-color: blue;
+}
+
+.myCarousel {
+  max-height: 700px;
+  overflow: hidden;
+
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+}
