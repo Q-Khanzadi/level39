@@ -39,6 +39,7 @@ body {
   margin-bottom: 30px 10px 0px 10px;
   color: #333333;
   font-family: Tahoma, Geneva, sans-serif;
+  position: relative;
 }
 
 background-color: blue;
@@ -75,4 +76,12 @@ background-color: blue;
 
 .container-fluid {
   margin: auto;
+}
+
+#register {
+  text-align: center;
+}
+
+#text-box {
+  align: right;
 }
