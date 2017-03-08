@@ -14,6 +14,8 @@
 
 .navbar {
   display: inline;
+  background-color: #FFA500; opacity: 0.9; filter: alpha(opacity=50);
+  font-color: white;
 }
 
 .intro {
@@ -30,10 +32,6 @@ body {
   color: #333333;
   font-family: Tahoma, Geneva, sans-serif;
 }
-<<<<<<< HEAD
-
-  background-color: blue;
-}
 
 .myCarousel {
   max-height: 700px;
@@ -43,8 +41,9 @@ body {
     width: 100%;
     height: auto;
   }
-<<<<<<< HEAD
+
+.carousel-caption {
+  color: white;
+  font-style: bold;
+  text-shadow: #000 2px 2px 4px; 
 }
-=======
-}
->>>>>>> origin/master
