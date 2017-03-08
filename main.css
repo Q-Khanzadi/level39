@@ -31,12 +31,9 @@ body {
   color: #333333;
   font-family: Tahoma, Geneva, sans-serif;
 }
-<<<<<<< HEAD
-=======
 
   background-color: blue;
 }
->>>>>>> origin/master
 
 .myCarousel {
   max-height: 700px;
@@ -45,14 +42,12 @@ body {
   .item img {
     width: 100%;
     height: auto;
-<<<<<<< HEAD
   }
 
 .carousel-caption {
   color: white;
   font-style: bold;
   text-shadow: #000 2px 2px 4px; 
-=======
 }
 
 #about-us {
@@ -60,10 +55,6 @@ body {
   text-align: center;
   line-height: 30px;
 }
-<<<<<<< HEAD
-=======
->>>>>>> origin/master
-
 
 .text-box {
   padding: 30px;
@@ -71,7 +62,4 @@ body {
 
 .container-fluid {
   margin: auto;
->>>>>>> origin/master
 }
-
-#
