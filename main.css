@@ -43,3 +43,9 @@ body {
     height: auto;
   }
 }
+
+#about-us {
+  margin-top: 30px;
+  text-align: center;
+  line-height: 30px;
+}
