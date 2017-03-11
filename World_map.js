@@ -2,7 +2,8 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 2,
     minZoom: 1,
-    center: new google.maps.LatLng(0, 0)
+    center: new google.maps.LatLng(30, 0),
+    scrollwheel: false,
   });
 
   var marker_London = new google.maps.Marker({
