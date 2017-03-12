@@ -81,8 +81,17 @@ background-color: blue;
   text-align: center;
 }
 
+<<<<<<< HEAD
 h2 {
   text-align: center;
+=======
+<<<<<<< HEAD
+=======
+.container-fluid {
+  margin: auto;
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 }
 
 form {
