@@ -73,11 +73,6 @@ background-color: blue;
   line-height: 30px;
 }
 
-.text-box {
-  padding: 10px;
-  align: center;
-}
-
 .container-fluid {
   margin: auto;
 }
@@ -88,4 +83,13 @@ background-color: blue;
 
 h2 {
   text-align: center;
+}
+
+form {
+  display: inline-block;
+  text-align: center;
+}
+
+.text-box {
+  display: inline-block;
 }
