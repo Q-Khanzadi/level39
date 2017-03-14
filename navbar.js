@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
     var scrollPos = $(window).scrollTop(),
         navbar = $('.navbar-default');
 
-    if (scrollPos > 410) {
+    if (scrollPos >= $("#about-us").position().top) {
       navbar.addClass('change-color');
     } else {
       navbar.removeClass('change-color');
