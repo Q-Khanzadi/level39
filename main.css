@@ -2,26 +2,38 @@ h2 {
   text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 30px;
-  font-size: 5.5vw;
-  /*padding: 60px, 0px, 0px, 0px;*/
+  font-size: 5.5vw;                                                                                                                                                                   
+}
+
+h3 {
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-style: bold;
+  text-shadow: #000 0px 0px 40px; 
+  font-size: 30px;
+  font-size: 3.5vw;   
 }
 
 form {
   margin: 0 auto; 
   text-align: center;
+  padding-bottom: 40px;
 }
 
 p {
-  /*margin: 30px 0px 0px 0px;*/
   font-family: 'Droid Sans', Tahoma, Geneva, sans-serif;
   text-align: justify;
+}
+
+.navbar li a {
+  font-family: 'Droid Sans', Tahoma, Geneva, sans-serif; 
+  line-height: 30px;
 }
 
 .myCarousel {
   max-height: 700px;
   overflow: hidden;
   margin: 0;
-  /*padding: 0;*/
 }
 
 #map {
@@ -59,12 +71,6 @@ p {
     height: auto;
   }
 
-.carousel-caption {
-  color: white;
-  font-style: bold;
-  text-shadow: #000 0px 0px 40px; 
-}
-
 .centered-div {
   align: center;
 }
@@ -77,3 +83,4 @@ p {
 .terms {
   text-align: center;
 }
+
