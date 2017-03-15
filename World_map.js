@@ -20,7 +20,7 @@ function initMap() {
       '<p display="table-cell" text-align="justify">Hi I\'m <b>Sophie</b>, aged <b>20</b> from <b>London</b>! I love trying <br/> the different Street Food Stalls around London,<br/> and going on nights out - my favourite types <br/>of music are Techno and Drum \& Bass.</p>'+
       '</div>'+ //left float div
       '<div display="block" float="right">'+
-      '<img src="Sophie.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '<img src="img/Sophie.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
       '</div>'+ //right float div
       '<button type="button" class="btn">Contact me</button>'+
       '</div>'+ //body content div
@@ -47,7 +47,7 @@ function initMap() {
       '<p display="table-cell" text-align="justify">Hi I\'m <b>Nathalie</b>, aged <b>20</b> from <b>Paris</b>! I love finding <br/>underground bars in Paris, <br/>and finding the best Steak-frites!</p>'+
       '</div>'+ //left float div
       '<div display="block" float="right">'+
-      '<img src="Nathalie.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '<img src="img/Nathalie.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
       '</div>'+ //right float div
       '<button type="button" class="btn">Contact me</button>'+
       '</div>'+ //body content div
@@ -74,7 +74,7 @@ function initMap() {
       '<p display="table-cell" text-align="justify">Hi I\'m <b>Isobel</b>, aged <b>24</b> from <b>New York</b>! I love going <br/>to Broadway shows, chilling out in Central Park<br/>with my sausage dog, Ernie, and finding the best bagel <br/>places to eat!</p>'+
       '</div>'+ //left float div
       '<div display="block" float="right">'+
-      '<img src="Isobel.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '<img src="img/Isobel.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
       '</div>'+ //right float div
       '<button type="button" class="btn">Contact me</button>'+
       '</div>'+ //body content div
@@ -101,7 +101,7 @@ function initMap() {
       '<p display="table-cell" text-align="justify">Hi I\'m <b>Toby</b>, aged <b>19</b> from <b>Sydney</b>! I love being <br/>able to hang out in different bars in the town,<br/>and then chill out with a barbie on the beach, <br/>watching the beautiful sunset over the Opera House.</p>'+
       '</div>'+ //left float div
       '<div display="block" float="right">'+
-      '<img src="Toby.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '<img src="img/Toby.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
       '</div>'+ //right float div
       '<button type="button" class="btn">Contact me</button>'+
       '</div>'+ //body content div
@@ -127,7 +127,7 @@ function initMap() {
       '<p display="table-cell" text-align="justify">Hi I\'m <b>James</b>, aged <b>34</b> from <b>Tokyo</b>! <br/>I\'ve only just arrived here a few weeks ago, <br/>so I\'d love to find people to help me explore<br/>and eat lots of ramen!</p>'+
       '</div>'+ //left float div
       '<div display="block" float="right">'+
-      '<img src="james.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '<img src="img/james.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
       '</div>'+ //right float div
       '<button type="button" class="btn">Contact me</button>'+
       '</div>'+ //body content div
@@ -153,7 +153,7 @@ function initMap() {
       '<p display="table-cell" text-align="justify">Hi I\'m <b>Anna</b>, aged <b>22</b> from <b>Los Angeles</b>! I love cruising <br/>down Venice Beach on my skateboard, and then<br/>stopping off for a burrito with my friends.</p>'+
       '</div>'+ //left float div
       '<div display="block" float="right">'+
-      '<img src="Anna.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '<img src="img/Anna.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
       '</div>'+ //right float div
       '<button type="button" class="btn">Contact me</button>'+
       '</div>'+ //body content div
@@ -179,7 +179,7 @@ function initMap() {
       '<p display="table-cell" text-align="justify">Hi I\'m <b>Paolo</b>, aged <b>41</b> from <b>Rio de Janeiro</b>! I really <br/>enjoy getting lost in the market, where they do <br/>amazing churros with chocolate sauce.The football spirit <br/>is one of the best things about Brazilians</p>'+
       '</div>'+ //left float div
       '<div display="block" float="right">'+
-      '<img src="Paolo.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
+      '<img src="img/Paolo.jpg" height="80px" width="80px" horizontal-align="center" vertcal-align="middle" display="table-cell" vertical-align="middle" style="border-radius:50%" >'+
       '</div>'+ //right float div
       '<button type="button" class="btn">Contact me</button>'+
       '</div>'+ //body content div
